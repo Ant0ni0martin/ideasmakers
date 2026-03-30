@@ -197,16 +197,15 @@ export default function Home() {
           </div>
 
           <div className="relative w-full rounded-lg overflow-hidden border border-[#1a1a1a]" style={{ aspectRatio: "16/9" }}>
-            <iframe
-              src="https://www.youtube.com/embed/LXb3EKWsInQ?rel=0&modestbranding=1&color=white"
-              title="Ejemplo — La serie de tu empresa"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="absolute inset-0 w-full h-full"
+            <video
+              src="https://hymaduapsziuletnuygs.supabase.co/storage/v1/object/public/videos/ideasmakers/ideasmakers-ejemplo.mp4"
+              controls
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover bg-black"
             />
           </div>
           <p className="text-center text-[#444] text-xs mt-4">
-            Vídeo de ejemplo. Tu serie será única para tu empresa.
+            Vídeo real. Así filmamos la épica de tu empresa.
           </p>
         </div>
       </section>
