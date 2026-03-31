@@ -8,11 +8,11 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-5 flex items-center justify-between"
            style={{ background: "linear-gradient(to bottom, rgba(8,8,8,0.95) 0%, transparent 100%)" }}>
         <span className="text-white font-black text-lg tracking-widest uppercase">
-          IDEAS<span className="text-[#E8A020]">MAKERS</span>
+          IDEAS<span className="text-[#65B8DD]">MAKERS</span>
         </span>
         <a
           href="#contacto"
-          className="text-xs font-bold uppercase tracking-widest border border-[#E8A020] text-[#E8A020] hover:bg-[#E8A020] hover:text-black px-4 py-2 transition-colors rounded"
+          className="text-xs font-bold uppercase tracking-widest border border-[#65B8DD] text-[#65B8DD] hover:bg-[#65B8DD] hover:text-black px-4 py-2 transition-colors rounded"
         >
           Empieza tu serie
         </a>
@@ -26,35 +26,35 @@ export default function Home() {
              style={{ background: "radial-gradient(ellipse at center, rgba(232,160,32,0.06) 0%, transparent 70%)" }} />
 
         {/* Bordes laterales cinematográficos */}
-        <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-[#E8A020]/20 to-transparent" />
-        <div className="absolute right-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-[#E8A020]/20 to-transparent" />
+        <div className="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-[#65B8DD]/20 to-transparent" />
+        <div className="absolute right-0 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-[#65B8DD]/20 to-transparent" />
 
         {/* Sprockets de película */}
         <div className="absolute left-3 top-0 bottom-0 flex flex-col justify-around pointer-events-none">
           {Array.from({ length: 12 }).map((_, i) => (
-            <div key={i} className="w-2 h-3 bg-[#E8A020]/10 rounded-sm" />
+            <div key={i} className="w-2 h-3 bg-[#65B8DD]/10 rounded-sm" />
           ))}
         </div>
         <div className="absolute right-3 top-0 bottom-0 flex flex-col justify-around pointer-events-none">
           {Array.from({ length: 12 }).map((_, i) => (
-            <div key={i} className="w-2 h-3 bg-[#E8A020]/10 rounded-sm" />
+            <div key={i} className="w-2 h-3 bg-[#65B8DD]/10 rounded-sm" />
           ))}
         </div>
 
         <div className="relative z-10 max-w-5xl mx-auto">
           {/* Eyebrow */}
           <div className="inline-flex items-center gap-2 mb-8 animate-fade-up">
-            <div className="w-6 h-px bg-[#E8A020]" />
-            <span className="text-[#E8A020] text-xs font-bold uppercase tracking-[0.3em]">
+            <div className="w-6 h-px bg-[#65B8DD]" />
+            <span className="text-[#65B8DD] text-xs font-bold uppercase tracking-[0.3em]">
               El documental de tu empresa
             </span>
-            <div className="w-6 h-px bg-[#E8A020]" />
+            <div className="w-6 h-px bg-[#65B8DD]" />
           </div>
 
           {/* Slogan principal */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[0.95] tracking-tight mb-8 animate-fade-up-delay">
             <span className="text-white">No hay serie de</span>{" "}
-            <span className="text-[#E8A020]">Netflix</span>
+            <span className="text-[#65B8DD]">Netflix</span>
             <br />
             <span className="text-white">que supere la épica</span>
             <br />
@@ -72,13 +72,13 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up-delay-2">
             <a
               href="#contacto"
-              className="inline-block bg-[#E8A020] hover:bg-[#F5C55A] text-black font-bold px-8 py-4 rounded transition-colors text-sm uppercase tracking-widest pulse-amber"
+              className="inline-block bg-[#65B8DD] hover:bg-[#A0D5EC] text-black font-bold px-8 py-4 rounded transition-colors text-sm uppercase tracking-widest pulse-amber"
             >
               Quiero mi serie →
             </a>
             <a
               href="#como-funciona"
-              className="inline-block border border-[#333] hover:border-[#E8A020] text-[#888] hover:text-white px-8 py-4 rounded transition-colors text-sm uppercase tracking-widest"
+              className="inline-block border border-[#333] hover:border-[#65B8DD] text-[#888] hover:text-white px-8 py-4 rounded transition-colors text-sm uppercase tracking-widest"
             >
               Cómo funciona
             </a>
@@ -100,7 +100,7 @@ export default function Home() {
               <span className="gold-line mb-6 block" />
               <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-6">
                 Tu empresa ya tiene<br />
-                <span className="text-[#E8A020]">la mejor historia.</span><br />
+                <span className="text-[#65B8DD]">la mejor historia.</span><br />
                 Solo falta contarla.
               </h2>
               <p className="text-[#888] text-lg leading-relaxed mb-6">
@@ -122,7 +122,7 @@ export default function Home() {
                 { num: "∞", label: "episodios posibles. Tu empresa nunca para de crear contenido." },
               ].map((stat) => (
                 <div key={stat.num} className="bg-[#111] border border-[#1a1a1a] rounded-lg p-5">
-                  <div className="text-3xl font-black text-[#E8A020] mb-2">{stat.num}</div>
+                  <div className="text-3xl font-black text-[#65B8DD] mb-2">{stat.num}</div>
                   <p className="text-xs text-[#888] leading-relaxed">{stat.label}</p>
                 </div>
               ))}
@@ -164,7 +164,7 @@ export default function Home() {
             ].map((item, idx) => (
               <div key={item.step} className="relative">
                 <div className="bg-[#111] border border-[#1a1a1a] rounded-lg p-8 h-full">
-                  <div className="text-xs font-black text-[#E8A020] tracking-[0.3em] mb-4">
+                  <div className="text-xs font-black text-[#65B8DD] tracking-[0.3em] mb-4">
                     {item.step}
                   </div>
                   <div className="text-3xl mb-4">{item.icon}</div>
@@ -189,7 +189,7 @@ export default function Home() {
             <span className="gold-line mb-6 block mx-auto" />
             <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
               Así suena<br />
-              <span className="text-[#E8A020]">la épica real</span>
+              <span className="text-[#65B8DD]">la épica real</span>
             </h2>
             <p className="text-[#888] text-lg">
               Un ejemplo de lo que puede ser la serie de tu empresa.
@@ -217,7 +217,7 @@ export default function Home() {
             <span className="gold-line mb-6 block mx-auto" />
             <h2 className="text-4xl md:text-5xl font-black text-white">
               El efecto<br />
-              <span className="text-[#E8A020]">serie</span>
+              <span className="text-[#65B8DD]">serie</span>
             </h2>
           </div>
 
@@ -257,7 +257,7 @@ export default function Home() {
               <span className="gold-line mb-6 block" />
               <h2 className="text-4xl md:text-5xl font-black text-white leading-tight mb-6">
                 Al alcance de<br />
-                <span className="text-[#E8A020]">toda empresa</span>
+                <span className="text-[#65B8DD]">toda empresa</span>
               </h2>
               <p className="text-[#888] text-lg leading-relaxed mb-8">
                 No hace falta ser una multinacional. La épica existe en cualquier empresa
@@ -279,8 +279,8 @@ export default function Home() {
                 "Cualquier empresa que cuide a su gente",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-4 bg-[#111] border border-[#1a1a1a] rounded-lg px-5 py-4">
-                  <div className="w-5 h-5 rounded-full bg-[#E8A020]/20 flex items-center justify-center shrink-0">
-                    <div className="w-2 h-2 rounded-full bg-[#E8A020]" />
+                  <div className="w-5 h-5 rounded-full bg-[#65B8DD]/20 flex items-center justify-center shrink-0">
+                    <div className="w-2 h-2 rounded-full bg-[#65B8DD]" />
                   </div>
                   <span className="text-[#F0EDE8] text-sm font-medium">{item}</span>
                 </div>
@@ -291,7 +291,7 @@ export default function Home() {
       </section>
 
       {/* ── QUOTE ── */}
-      <section className="py-24 px-6 bg-[#E8A020]">
+      <section className="py-24 px-6 bg-[#65B8DD]">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-4xl md:text-5xl lg:text-6xl font-black text-black leading-tight">
             &ldquo;No hay serie de Netflix que supere la épica de tu trabajo cada día.&rdquo;
@@ -309,12 +309,12 @@ export default function Home() {
       <footer className="border-t border-[#111] px-6 py-10">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <span className="text-white font-black tracking-widest uppercase text-sm">
-            IDEAS<span className="text-[#E8A020]">MAKERS</span>
+            IDEAS<span className="text-[#65B8DD]">MAKERS</span>
           </span>
           <p className="text-[#444] text-xs text-center">
             © {new Date().getFullYear()} Ideasmakers. Todos los derechos reservados.
           </p>
-          <a href="mailto:hola@ideasmakers.com" className="text-[#444] hover:text-[#E8A020] text-xs transition-colors">
+          <a href="mailto:hola@ideasmakers.com" className="text-[#444] hover:text-[#65B8DD] text-xs transition-colors">
             hola@ideasmakers.com
           </a>
         </div>

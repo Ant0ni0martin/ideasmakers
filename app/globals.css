@@ -3,9 +3,9 @@
 @theme inline {
   --color-background: #080808;
   --color-foreground: #F0EDE8;
-  --color-amber: #E8A020;
-  --color-amber-light: #F5C55A;
-  --color-amber-dim: rgba(232, 160, 32, 0.15);
+  --color-amber: #65B8DD;
+  --color-amber-light: #A0D5EC;
+  --color-amber-dim: rgba(101, 184, 221, 0.15);
   --color-dark-card: #111111;
   --color-dark-border: #222222;
   --color-muted: #888888;
@@ -31,8 +31,8 @@ body {
 }
 
 @keyframes pulse-amber {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(232, 160, 32, 0.4); }
-  50%       { box-shadow: 0 0 0 12px rgba(232, 160, 32, 0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(101, 184, 221, 0.4); }
+  50%       { box-shadow: 0 0 0 12px rgba(101, 184, 221, 0); }
 }
 
 .animate-fade-up {
@@ -69,7 +69,7 @@ body {
   display: inline-block;
   width: 48px;
   height: 2px;
-  background: #E8A020;
+  background: #65B8DD;
 }
 
 /* Video placeholder */
